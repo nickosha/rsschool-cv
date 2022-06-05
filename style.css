@@ -66,6 +66,66 @@ body {
     transition: width 0.5s;
 }
 
+.main-wrapper {
+    display: flex;
+}
+
+.first-column {
+    border: 1px solid #000;
+    flex-grow: 1;
+    background-color: #174180;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-column {
+    border: 1px solid #000;
+    flex-grow: 3;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 150px;
+}
+
+h1 {
+    margin-top: 15px;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 20px;
+}
+
+.name {
+    font-weight: 400;
+}
+
+.surname {
+    font-weight: 800;
+}
+
+.hero>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
 .footer-wrapper {
     display: flex;
     justify-content: space-evenly;
