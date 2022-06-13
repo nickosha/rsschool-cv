@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-wrapper">
+            <div class="first-column">
+                <section class="profile">
+                    <div class="img">
+                        <img src="./assets/myfoto.jpg" alt="avatar" class="avatar">
+                    </div>
+                    <h1><span class="name">VITALIY</span> <span class="surname">NIKOLAENKO</span></h1>
+                    <span>Junior Front-end Developer</span>
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2 class="first-column-title">CONTACTS</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-item"><a href="mailto:vnickolaenko@gmail.com" class="contacts-link">vnickolaenko@gmail.com</a></li>
+                        <li class="contacts-item"><a href="tel:+79788197030" class="contacts-link">+7 978 819 70 30</a></li>
+                        <li class="contacts-item">Kerch, Crimea</li>
+                    </ul>
+                </section>
+                <section class="summary" id="summary">
+                    <h2 class="first-column-title">ABOUT ME</h2>
+                    <p>I am 41 years old, I am an entrepreneur in the field of catering and production. I want to get a new profession in which I can constantly develop, that's why I'm here.</p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="first-column-title">SKILLS</h2>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="first-column-title">LANGUAGE</h2>
+                    <ul class="languages-list">
+                        <li class="languages-item">English <span>A2</span></li>
+                        <li class="languages-item">Russian <span>Native</span></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="second-column">
+                <section class="education" id="education">
+                    <h2 class="second-column-title">Education</h2>
+                    <ul class="education-list">
+                        <li class="education-item"><span>University:</span> Sevastopol State University</li>
+                        <li class="education-item"><span>Courses:</span>
+                            <ul>
+                                <li class="courses-item"><a class="courses-link" href="https://webcademy.ru/htmlstart/" target="_blank">WebCademy</a></li>
+                                <li class="courses-item"><a class="courses-link" href="https://learn.javascript.ru/courses/jsbasic" target="_blank">Learn.JavaScript</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="code" id="code">
+                    <h2 class="second-column-title">Code</h2>
+                    <ul class="code-list">
+                        <li><p><span class="bold">Largest Square Inside A Circle KATA from CODEWARS:</span> Determine the area of the largest square that can fit inside a circle with radius r.</p>
+                            <pre><code>function areaLargestSquare(r) { 
+    return Math.pow(r, 2) * 2; 
+}</code></pre>
+                        </li>
+                        <li><p><span class="bold">String ends with? KATA from CODEWARS:</span> Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).</p>
+                            <pre><code>function solution(str, ending) {
+    return str.endsWith(ending)
+}
+                            </code></pre>
+                        </li>
+                    </ul>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 class="second-column-title">Projects</h2>
+                    <ul class="projecs-list">
+                        <li class="projects-item"><a class="projects-link" href="http://v97881yy.beget.tech/unit-project/index.html" target="_blank">Юнит</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <span>2022</span>
+            <a href="https://github.com/nickosha" target="_blank" class="github-link"></a>
+            <a href="https://rs.school/js/" target="_blank" class="rss"></a>
+        </div>
+    </footer>
+</body>
+</html>
