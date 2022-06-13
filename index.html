@@ -17,9 +17,10 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
@@ -29,7 +30,7 @@
     <main class="main">
         <div class="container main-wrapper">
             <div class="first-column">
-                <section class="hero">
+                <section class="profile">
                     <div class="img">
                         <img src="./assets/myfoto.jpg" alt="avatar" class="avatar">
                     </div>
@@ -44,7 +45,7 @@
                         <li class="contacts-item">Kerch, Crimea</li>
                     </ul>
                 </section>
-                <section class="about-me" id="about-me">
+                <section class="summary" id="summary">
                     <h2 class="first-column-title">ABOUT ME</h2>
                     <p>I am 41 years old, I am an entrepreneur in the field of catering and production. I want to get a new profession in which I can constantly develop, that's why I'm here.</p>
                 </section>
@@ -72,15 +73,15 @@
                         <li class="education-item"><span>University:</span> Sevastopol State University</li>
                         <li class="education-item"><span>Courses:</span>
                             <ul>
-                                <li class="courses-item"><a href="https://webcademy.ru/htmlstart/" target="_blank">WebCademy</a></li>
-                                <li class="courses-item"><a href="https://learn.javascript.ru/courses/jsbasic" target="_blank">Learn.JavaScript</a></li>
+                                <li class="courses-item"><a class="courses-link" href="https://webcademy.ru/htmlstart/" target="_blank">WebCademy</a></li>
+                                <li class="courses-item"><a class="courses-link" href="https://learn.javascript.ru/courses/jsbasic" target="_blank">Learn.JavaScript</a></li>
                             </ul>
                         </li>
                     </ul>
                 </section>
-                <section class="code-example" id="code-example">
-                    <h2 class="second-column-title">Code Example</h2>
-                    <ul class="code-example-list">
+                <section class="code" id="code">
+                    <h2 class="second-column-title">Code</h2>
+                    <ul class="code-list">
                         <li><p><span class="bold">Largest Square Inside A Circle KATA from CODEWARS:</span> Determine the area of the largest square that can fit inside a circle with radius r.</p>
                             <pre><code>function areaLargestSquare(r) { 
     return Math.pow(r, 2) * 2; 
@@ -92,6 +93,12 @@
 }
                             </code></pre>
                         </li>
+                    </ul>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 class="second-column-title">Projects</h2>
+                    <ul class="projecs-list">
+                        <li class="projects-item"><a class="projects-link" href="http://v97881yy.beget.tech/unit-project/index.html" target="_blank">Юнит</a></li>
                     </ul>
                 </section>
             </div>
