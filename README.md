@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nickosha.github.io/rsschool-cv/
